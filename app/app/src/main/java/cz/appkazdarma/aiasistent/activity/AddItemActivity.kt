@@ -1,4 +1,4 @@
-package de.mm20.launcher2.activity
+package cz.appkazdarma.aiasistent.activity
 
 import android.app.Activity
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package de.mm20.launcher2.debug
+package cz.appkazdarma.aiasistent.debug
 
 import android.os.StrictMode
 import android.util.Log

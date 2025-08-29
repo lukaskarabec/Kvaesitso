@@ -28,12 +28,12 @@ android {
 
     compileSdk = libs.versions.compileSdk.get().toInt()
     defaultConfig {
-        applicationId = "de.mm20.launcher2"
+        applicationId = "cz.appkazdarma.aiasistent"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         @SuppressLint("HighAppVersionCode")
-        versionCode = System.getenv("VERSION_CODE_OVERRIDE")?.toIntOrNull() ?: 2025070400
-        versionName = "1.37.0"
+        versionCode = System.getenv("VERSION_CODE_OVERRIDE")?.toIntOrNull() ?: 758
+        versionName = "7.5.8"
         signingConfig = signingConfigs.getByName("debug")
     }
 
@@ -99,7 +99,7 @@ android {
     lint {
         abortOnError = false
     }
-    namespace = "de.mm20.launcher2"
+    namespace = "cz.appkazdarma.aiasistent"
 }
 
 
