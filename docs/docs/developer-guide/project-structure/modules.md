@@ -10,7 +10,7 @@ started this project so future refactorings are to be expected. This is the curr
 
 - `:app`:
     - `:app`: The app module. Contains almost nothing except the `Application` class (
-      `de.mm20.launcher2.LauncherApplication`)
+      `cz.appkazdarma.aiasistent.LauncherApplication`)
     - `:ui`: Contains almost the entire user interface (except for account sign-in UIs). The only
       module that uses Jetpack Compose.
 - `:services`: Higher level APIs for the app's business logic. Each module represents a specific

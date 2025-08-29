@@ -1,4 +1,4 @@
-package de.mm20.launcher2
+package cz.appkazdarma.aiasistent
 
 import android.app.Application
 import coil.ImageLoader
